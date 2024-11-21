@@ -1,5 +1,93 @@
-form{
+
+
+h1,h3{
+    font-family: Pacifico, "Palatino Linotype", Georgia, serif;
+    font-weight: normal;
+}
+
+h1{
+    color: #bd0008;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em
+}
+
+fieldset[id=information] h3{
+    color: #000000
+}
+
+fieldset[id=information]{
+    background-color: #d3d68c
+}
+
+fieldset[id=somethingtoplease] h3{
+    color: #f39809
+}
+
+fieldset[id=somethingtoplease]{
+    background-color: #542f2c
+}
+
+fieldset[id=somethingtoplease], fieldset[id=feedbackarea]{
+    color: white;
+}
+
+fieldset[id=feedbackarea]{
+    background-color: #b20000
+}
+
+body{
+    margin: auto;
+    width: 70%;
+    background-image: url("../img/bg-stars.gif");
+}
+
+
+fieldset[id=information]{
     display: flex;
     flex-direction: column;
 }
 
+label[id=movie], label[id=trees]{
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[id=movie], input[id=tree], label[id=tree], label[id=movie]{
+    display:flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+p, label{
+    font-family: Roboto, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+}
+
+textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+input[id=trees], input[id=movie], textarea{
+    width: 100%;
+}
+
+h3{
+    margin-bottom: 1px;
+}
