@@ -91,3 +91,17 @@ input[id=trees], input[id=movie], textarea{
 h3{
     margin-bottom: 1px;
 }
+
+input[type=submit]{
+    margin-left: 938px;
+    background-color: #84881a;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
